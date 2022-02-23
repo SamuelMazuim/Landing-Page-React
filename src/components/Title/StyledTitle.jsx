@@ -36,3 +36,24 @@ export const StyledIcon = styled(GiMaterialsScience)`
     /* transform: scaleX(-1);
     transition: 0.5s; */
 `;
+
+export const StyledButton = styled.button`
+    font-size: 5rem;
+    transition: 0.8s;
+    box-shadow: inset 0px 0px 0px -1px #ffffff;
+    background: linear-gradient(to bottom, #5fb6c2 80%, #5fb6c2 100%);
+    background-color: #41acb9;
+    border-radius: 25px;
+    display: inline-block;
+    cursor: pointer;
+    color: #666666;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 1rem 3rem;
+    text-shadow: 1px 1px 0px #ffffff;
+    :hover {
+        transition: 0.8s;
+        background: linear-gradient(to bottom, #5fb6c2 90%, #f9f9f9 100%);
+        background-color: #e9e9e9;
+    }
+`;

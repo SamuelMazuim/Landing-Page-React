@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { FiClock } from "react-icons/fi";
 import { FaRegHandshake } from "react-icons/fa";
-import { GrWorkshop } from "react-icons/gr";
+import { VscNewFolder } from "react-icons/vsc";
 
 export const StyledListWrapper = styled.div`
     margin-top: 1rem;
@@ -20,15 +20,19 @@ export const StyledGeneralListWrapper = styled.div`
 export const StyledClockIcon = styled(FiClock)`
     font-size: 1.5rem;
     margin-right: 0.6rem;
+    color: white;
 `;
 
-export const StyledWorkIcon = styled(GrWorkshop)`
+export const StyledWorkIcon = styled(VscNewFolder)`
     font-size: 1.5rem;
     margin-right: 0.6rem;
+    color: white;
+    z-index: 999;
 `;
 export const StyledhandshakeIcon = styled(FaRegHandshake)`
     font-size: 1.5rem;
     margin-right: 0.6rem;
+    color: white;
 `;
 
 export const StyledH3 = styled.h3`
