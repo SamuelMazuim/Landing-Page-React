@@ -5,7 +5,11 @@ export const Landing = () => {
     return (
         <>
             <Header />
-            <Title title="O melhor curso de ciência de dados" />
+            <Title
+                title1="Hands-on"
+                title2="Data Science Course"
+                subtitle="Led by highly qualified professionals you will learn and practice then put at test your skills. "
+            />
         </>
     );
 };
