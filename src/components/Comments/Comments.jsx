@@ -17,7 +17,7 @@ import { StyledCardTitle } from '../SixCards/StyledSixCards';
 export const Comments = (props) => {
   return (
     <>
-      <div style={{ backgroundColor: 'rgb(248,252,252)', paddingBottom: '8rem' }}>
+      <div style={{ backgroundColor: 'rgb(248,252,252)', paddingBottom: '5rem' }}>
         <GeneralWrapper>
           <StyledH2
             style={{
@@ -40,7 +40,10 @@ export const Comments = (props) => {
         <StyledCentralizeWrapper>
           <StyledComment>
             <StyledHorizontalWrapper>
-              <StyledImg bg='url(https://i.pinimg.com/736x/18/d9/e1/18d9e1307018dbc76750ca7d5124fccd--ash-ketchum-pokemon.jpg)' />
+              <StyledImg
+                pos='-0.5rem'
+                bg='url(https://i.pinimg.com/736x/18/d9/e1/18d9e1307018dbc76750ca7d5124fccd--ash-ketchum-pokemon.jpg)'
+              />
               <StyledVerticalWrapper>
                 <StyledCardTitle>Ash Katchum</StyledCardTitle>
                 <StyledLine />

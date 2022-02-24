@@ -21,11 +21,20 @@ export const StyledHorizontalWrapper = styled.div`
   display: flex;
   align-items: center;
 `;
-export const StyledComment = styled(StyledCard)`
-  transition: 0s;
-  :hover {
-    transform: translateY(0rem);
-  }
+export const StyledComment = styled.div`
+  border-radius: 1rem;
+  margin: 3rem 3rem 3rem 3rem;
+  padding: 2rem;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 20%;
+  min-height: 10rem;
+  background-color: white;
+  -webkit-box-shadow: 2px 2px 50px -45px #000000;
+  box-shadow: 2px 2px 50px -45px #000000;
 `;
 export const StyledLine = styled.span`
   border-bottom: solid 0.3rem #8bedff;
