@@ -1,7 +1,16 @@
 import React from "react";
 import { StyledCentralizeWrapper, StyledH1, StyledH2 } from "../Title/StyledTitle";
 import { StyledTech, StyledCardTitle, StyledSpan } from "./StyledTechnologies";
-import { DiCode, DiReact, DiPython } from "react-icons/di";
+import {
+    DiReact,
+    DiPython,
+    DiDatabase,
+    DiGithubBadge,
+    DiNodejs,
+    DiAngularSimple,
+    DiJavascript,
+} from "react-icons/di";
+import { VscTerminalPowershell } from "react-icons/vsc";
 
 export const Technologies = (props) => {
     return (
@@ -48,66 +57,72 @@ export const Technologies = (props) => {
                             style={{
                                 marginTop: "-2rem",
                                 fontSize: "10rem",
+                                color: "#3470a2",
                             }}
                         />
                         <StyledCardTitle>Python</StyledCardTitle>
                     </StyledTech>
                     <StyledTech>
-                        <DiCode
+                        <DiAngularSimple
                             style={{
                                 marginTop: "-2rem",
                                 fontSize: "10rem",
+                                color: "#bd002e",
                             }}
                         />
-                        <StyledCardTitle>Data Science</StyledCardTitle>
+                        <StyledCardTitle>Angular</StyledCardTitle>
                     </StyledTech>
                     <StyledTech>
-                        <DiCode
+                        <DiGithubBadge
                             style={{
                                 marginTop: "-2rem",
                                 fontSize: "10rem",
                             }}
                         />
-                        <StyledCardTitle>Data Science</StyledCardTitle>
+                        <StyledCardTitle>Github</StyledCardTitle>
                     </StyledTech>
                 </StyledCentralizeWrapper>
 
                 <StyledCentralizeWrapper>
                     <StyledTech>
-                        <DiCode
+                        <VscTerminalPowershell
                             style={{
-                                marginTop: "-2rem",
+                                marginTop: "-1rem",
                                 fontSize: "10rem",
+                                color: "#1f77c7",
                             }}
                         />
-                        <StyledCardTitle>Data Science</StyledCardTitle>
+                        <StyledCardTitle>Powershell</StyledCardTitle>
                     </StyledTech>
                     <StyledTech>
-                        <DiCode
+                        <DiNodejs
                             style={{
                                 marginTop: "-2rem",
                                 fontSize: "10rem",
+                                color: "#439d59",
                             }}
                         />
-                        <StyledCardTitle>Data Science</StyledCardTitle>
+                        <StyledCardTitle>Node JS</StyledCardTitle>
                     </StyledTech>
                     <StyledTech>
-                        <DiCode
+                        <DiDatabase
                             style={{
                                 marginTop: "-2rem",
                                 fontSize: "10rem",
+                                color: "#05192d",
                             }}
                         />
-                        <StyledCardTitle>Data Science</StyledCardTitle>
+                        <StyledCardTitle>Database</StyledCardTitle>
                     </StyledTech>
                     <StyledTech>
-                        <DiCode
+                        <DiJavascript
                             style={{
                                 marginTop: "-2rem",
                                 fontSize: "10rem",
+                                color: "#efd81d",
                             }}
                         />
-                        <StyledCardTitle>Data Science</StyledCardTitle>
+                        <StyledCardTitle>JavaScript</StyledCardTitle>
                     </StyledTech>
                 </StyledCentralizeWrapper>
             </div>
