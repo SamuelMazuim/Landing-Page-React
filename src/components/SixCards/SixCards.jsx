@@ -7,12 +7,13 @@ import { DiCode } from 'react-icons/di';
 export const SixCards = (props) => {
   return (
     <>
-      <div style={{ backgroundColor: 'rgb(248,252,252)' }}>
+      <div style={{ backgroundColor: 'rgb(248,252,252)', margin: '2rem 0rem 8rem 0rem' }}>
         <GeneralWrapper>
           <StyledH2
             style={{
-              margin: '5rem  0rem 0rem 10.5rem',
+              margin: '5rem  0rem 0rem 12rem',
               width: '40%',
+              fontSize: '2.2rem',
             }}
           >
             Data science Data science Data science Data science Data science Data science Data
