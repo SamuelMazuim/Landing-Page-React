@@ -17,7 +17,7 @@ import { StyledCardTitle } from '../SixCards/StyledSixCards';
 export const Comments = (props) => {
   return (
     <>
-      <div style={{ backgroundColor: 'rgb(248,252,252)' }}>
+      <div style={{ backgroundColor: 'rgb(248,252,252)', paddingBottom: '8rem' }}>
         <GeneralWrapper>
           <StyledH2
             style={{
