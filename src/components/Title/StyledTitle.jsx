@@ -38,22 +38,22 @@ export const StyledIcon = styled(GiMaterialsScience)`
 `;
 
 export const StyledButton = styled.button`
-    font-size: 5rem;
-    transition: 0.8s;
-    box-shadow: inset 0px 0px 0px -1px #ffffff;
-    background: linear-gradient(to bottom, #5fb6c2 80%, #5fb6c2 100%);
-    background-color: #41acb9;
-    border-radius: 25px;
+    margin-bottom: 2rem;
+    box-shadow: 0px 10px 14px -7px #276873;
+    background: linear-gradient(to bottom, #0dccef 5%, #255b64 100%);
+    background-color: #0dccef;
+    border-radius: 8px;
     display: inline-block;
     cursor: pointer;
-    color: #666666;
-    font-family: sans-serif;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 20px;
     font-weight: bold;
-    padding: 1rem 3rem;
-    text-shadow: 1px 1px 0px #ffffff;
+    padding: 13px 32px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #3d768a;
     :hover {
-        transition: 0.8s;
-        background: linear-gradient(to bottom, #5fb6c2 90%, #f9f9f9 100%);
-        background-color: #e9e9e9;
+        background: linear-gradient(to bottom, #8bedff 5%, #2db0c7 100%);
+        transform: scale(1.1) perspective(1px);
     }
 `;

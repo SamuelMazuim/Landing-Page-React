@@ -15,7 +15,10 @@ export const Header = (props) => {
                     <StyledLogo />
                 </StyledGeneralWrapper>
 
-                <StyledGeneralWrapper>
+                <StyledGeneralWrapper
+                    style={{
+                        color: "white",
+                    }}>
                     <StyledP>About</StyledP>
                     <StyledP>Service</StyledP>
                     <StyledP>Prices</StyledP>

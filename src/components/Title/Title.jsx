@@ -7,14 +7,21 @@ import {
     StyledH2,
     StyledIcon,
     StyledButton,
+    StyledLocalWrapper,
 } from "./StyledTitle";
 
 export const Title = (props) => {
     return (
         <>
-            <StyledCentralizeWrapper>
+            <StyledCentralizeWrapper
+                style={{
+                    color: "white",
+                }}>
                 <GeneralWrapper>
-                    <StyledCollumnWrapper>
+                    <StyledCollumnWrapper
+                        style={{
+                            marginLeft: "8rem",
+                        }}>
                         <StyledH1>{props.title1}</StyledH1>
                         <StyledH1>{props.title2}</StyledH1>
                         <StyledH2>{props.subtitle}</StyledH2>
@@ -26,7 +33,7 @@ export const Title = (props) => {
                 </StyledCentralizeWrapper>
             </StyledCentralizeWrapper>
             <StyledCentralizeWrapper>
-                <StyledButton>Comprar</StyledButton>
+                <StyledButton>Start Now</StyledButton>
             </StyledCentralizeWrapper>
         </>
     );
