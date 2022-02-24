@@ -6,6 +6,7 @@ import { StyledBackgroundWrapper } from '../../components/General-Wrapper/Styled
 import { GlobalStyle } from '../../styles/global';
 import { Technologies } from '../../components/Technologies/Technologies';
 import { Comments } from '../../components/Comments/Comments';
+import { Footer } from '../../components/Footer/Footer';
 export const Landing = () => {
   return (
     <>
@@ -23,6 +24,7 @@ export const Landing = () => {
       <SixCards />
       <Technologies />
       <Comments />
+      <Footer />
     </>
   );
 };
