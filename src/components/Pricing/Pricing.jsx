@@ -9,7 +9,7 @@ import {
 import {
   StyledBulletPointText,
   StyledCheck,
-  StyledPlanBox,
+  StyledPlanBox, 
   StyledPricingSubTitle,
   StyledPricingTitle,
 } from './StyledPricing';
@@ -22,7 +22,7 @@ export const Pricing = (props) => {
     <>
       <div
         style={{
-          background: 'radial-gradient(at 0% 0%, #41acb9, #0b011f, #0b011f)',
+          background: 'radial-gradient(at 0% 100%, #41acb9, #0b011f, #0b011f)',
           paddingBottom: '5rem',
         }}
       >
@@ -43,13 +43,100 @@ export const Pricing = (props) => {
             </StyledCentralizeWrapper>
             <StyledCentralizeWrapper>
               <StyledCentralizeWrapper>
-                <PriceCard title='Basic' description='Ideal for begginers' price='$ 700,00' />
-                <PriceCard title='Standard' description='Complete version' price='$ 1200,00' />
-                <PriceCard
-                  title='Advanced'
-                  description='Standart + Special features'
-                  price='$ 1500,00'
-                />
+              <StyledPlanBox style={{ paddingBottom: '2.5rem', width:'18%'}}>
+      <StyledPricingTitle
+        style={{
+          textAlign: 'center',
+          margin: '0rem',
+          marginBottom: '0.5rem',
+          padding: '0rem',
+        }}
+      >
+        Basic
+      </StyledPricingTitle>
+      <StyledPricingSubTitle
+        style={{
+          textAlign: 'center',
+          margin: '0rem',
+          padding: '0rem',
+        }}
+      >
+       Ideal for begginers
+      </StyledPricingSubTitle>
+      <StyledVerticalWrapper>
+        <BulletPoint>Aulas ao vivo todo dia</BulletPoint>
+        <BulletPoint>Acesso a aulas gravadas</BulletPoint>
+        <BulletPoint>Hub social no discord</BulletPoint>
+        <BulletPoint grey >Banco de exercícios</BulletPoint>
+        <BulletPoint grey >Biblioteca de documentações</BulletPoint>
+        <BulletPoint grey >Aulas individuais</BulletPoint>
+        <BulletPoint grey >Suporte ao vivo 24horas</BulletPoint>
+        <Price>$ 700.00</Price>
+      </StyledVerticalWrapper>
+    </StyledPlanBox>
+    <StyledPlanBox style={{ paddingBottom: '2.5rem', width:'18%' }}>
+      <StyledPricingTitle
+        style={{
+          textAlign: 'center',
+          margin: '0rem',
+          marginBottom: '0.5rem',
+          padding: '0rem',
+        }}
+      >
+        Standard
+      </StyledPricingTitle>
+      <StyledPricingSubTitle
+        style={{
+          textAlign: 'center',
+          margin: '0rem',
+          padding: '0rem',
+        }}
+      >
+        Complete version
+      </StyledPricingSubTitle>
+      <StyledVerticalWrapper>
+        <BulletPoint>Aulas ao vivo todo dia</BulletPoint>
+        <BulletPoint>Acesso a aulas gravadas</BulletPoint>
+        <BulletPoint>Hub social no discord</BulletPoint>
+        <BulletPoint>Banco de exercícios</BulletPoint>
+        <BulletPoint>Biblioteca de documentações</BulletPoint>
+        <BulletPoint grey>Aulas individuais</BulletPoint>
+        <BulletPoint grey>Suporte ao vivo 24horas</BulletPoint>
+        <Price>$ 1,200.00</Price>
+      </StyledVerticalWrapper>
+    </StyledPlanBox>
+    <StyledPlanBox style={{ paddingBottom: '2.5rem', width:'18%' }}>
+      <StyledPricingTitle
+        style={{
+          textAlign: 'center',
+          margin: '0rem',
+          marginBottom: '0.5rem',
+          padding: '0rem',
+        }}
+      >
+        Advanced
+      </StyledPricingTitle>
+      <StyledPricingSubTitle
+        style={{
+          textAlign: 'center',
+          margin: '0rem',
+          padding: '0rem',
+        }}
+      >
+       Standart + Special features
+      </StyledPricingSubTitle>
+      <StyledVerticalWrapper>
+        <BulletPoint>Aulas ao vivo todo dia</BulletPoint>
+        <BulletPoint>Acesso a aulas gravadas</BulletPoint>
+        <BulletPoint>Hub social no discord</BulletPoint>
+        <BulletPoint>Banco de exercícios</BulletPoint>
+        <BulletPoint>Biblioteca de documentações</BulletPoint>
+        <BulletPoint>Aulas individuais</BulletPoint>
+        <BulletPoint>Suporte ao vivo 24horas</BulletPoint>
+        <Price>$ 1,500.00</Price>
+      </StyledVerticalWrapper>
+    </StyledPlanBox>
+              
               </StyledCentralizeWrapper>
             </StyledCentralizeWrapper>
           </StyledCollumnWrapper>
@@ -75,44 +162,7 @@ const Price = (props) => {
         justifyContent: 'center',
       }}
     >
-      <StyledBulletPointText>{props.price}</StyledBulletPointText>
-      <StyledBulletPointText>{props.children}</StyledBulletPointText>
+      <StyledBulletPointText style={{fontSize:'1.5rem'}}><b>{props.children}</b></StyledBulletPointText>
     </StyledHorizontalWrapper>
-  );
-};
-
-const PriceCard = (props) => {
-  return (
-    <StyledPlanBox style={{ paddingBottom: '2.5rem' }}>
-      <StyledPricingTitle
-        style={{
-          textAlign: 'center',
-          margin: '0rem',
-          marginBottom: '0.5rem',
-          padding: '0rem',
-        }}
-      >
-        {props.title}
-      </StyledPricingTitle>
-      <StyledPricingSubTitle
-        style={{
-          textAlign: 'center',
-          margin: '0rem',
-          padding: '0rem',
-        }}
-      >
-        {props.description}
-      </StyledPricingSubTitle>
-      <StyledVerticalWrapper>
-        <BulletPoint>Aulas ao vivo todo dia</BulletPoint>
-        <BulletPoint>Acesso a aulas gravadas</BulletPoint>
-        <BulletPoint>Hub social no discord</BulletPoint>
-        <BulletPoint>Banco de exercícios</BulletPoint>
-        <BulletPoint>Biblioteca de documentações</BulletPoint>
-        <BulletPoint>Aulas individuais</BulletPoint>
-        <BulletPoint>Suporte ao vivo 24horas</BulletPoint>
-        <Price>{props.price}</Price>
-      </StyledVerticalWrapper>
-    </StyledPlanBox>
   );
 };

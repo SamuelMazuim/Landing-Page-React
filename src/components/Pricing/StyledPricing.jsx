@@ -32,4 +32,9 @@ export const StyledPlanBox = styled(StyledComment)`
 
     padding: 3rem 2rem;
     width: 17%;
+    transition: 0.5s;
+    border: solid 4px transparent;
+    :hover {
+        border: solid 4px #8bedff 
+    }
 `;

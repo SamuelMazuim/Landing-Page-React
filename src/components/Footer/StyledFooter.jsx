@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import { CgPokemon } from 'react-icons/cg';
 export const StyledLink = styled(Link)`
-  color: #067bfc;
+  color: #0b011f;
   text-decoration: none;
   font-weight: bolder;
   cursor: pointer;

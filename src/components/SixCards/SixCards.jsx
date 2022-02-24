@@ -3,6 +3,7 @@ import { GeneralWrapper } from '../General-Wrapper/GeneralWrapper';
 import { StyledCentralizeWrapper, StyledH2 } from '../Title/StyledTitle';
 import { StyledCard, StyledCardTitle, StyledP } from './StyledSixCards';
 import { DiCode } from 'react-icons/di';
+import {GoLightBulb, GoDeviceMobile, GoDeviceDesktop, GoGitMerge, GoRepo} from 'react-icons/go';
 
 export const SixCards = (props) => {
   return (
@@ -16,8 +17,7 @@ export const SixCards = (props) => {
               fontSize: '2.2rem',
             }}
           >
-            Data science Data science Data science Data science Data science Data science Data
-            science
+            Metodologia de Ensino
           </StyledH2>
         </GeneralWrapper>
         <StyledCentralizeWrapper>
@@ -25,7 +25,7 @@ export const SixCards = (props) => {
             <DiCode
               style={{
                 marginTop: '-2rem',
-                fontSize: '10rem',
+                fontSize: '8rem',
               }}
             />
             <StyledCardTitle>Data Science</StyledCardTitle>
@@ -37,13 +37,12 @@ export const SixCards = (props) => {
             </StyledP>
           </StyledCard>
           <StyledCard>
-            <DiCode
+            <GoLightBulb
               style={{
-                marginTop: '-2rem',
-                fontSize: '10rem',
+                fontSize: '5rem',
               }}
             />
-            <StyledCardTitle>Data Science</StyledCardTitle>
+            <StyledCardTitle>Ideas</StyledCardTitle>
             <StyledP>
               One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed
               in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted
@@ -52,13 +51,13 @@ export const SixCards = (props) => {
             </StyledP>
           </StyledCard>
           <StyledCard>
-            <DiCode
+            <GoDeviceDesktop
               style={{
-                marginTop: '-2rem',
-                fontSize: '10rem',
+                marginLeft:'1rem',
+                fontSize: '5rem',
               }}
             />
-            <StyledCardTitle>Data Science</StyledCardTitle>
+            <StyledCardTitle>Desktop</StyledCardTitle>
             <StyledP>
               One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed
               in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted
@@ -70,13 +69,13 @@ export const SixCards = (props) => {
 
         <StyledCentralizeWrapper>
           <StyledCard>
-            <DiCode
+            <GoDeviceMobile
               style={{
-                marginTop: '-2rem',
-                fontSize: '10rem',
+                
+                fontSize: '5rem',
               }}
             />
-            <StyledCardTitle>Data Science</StyledCardTitle>
+            <StyledCardTitle>Mobile</StyledCardTitle>
             <StyledP>
               One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed
               in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted
@@ -85,13 +84,12 @@ export const SixCards = (props) => {
             </StyledP>
           </StyledCard>
           <StyledCard>
-            <DiCode
+            <GoRepo
               style={{
-                marginTop: '-2rem',
-                fontSize: '10rem',
+                fontSize: '5rem',
               }}
             />
-            <StyledCardTitle>Data Science</StyledCardTitle>
+            <StyledCardTitle>Library</StyledCardTitle>
             <StyledP>
               One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed
               in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted
@@ -100,13 +98,13 @@ export const SixCards = (props) => {
             </StyledP>
           </StyledCard>
           <StyledCard>
-            <DiCode
+            <GoGitMerge
               style={{
-                marginTop: '-2rem',
-                fontSize: '10rem',
+                
+                fontSize: '5rem',
               }}
             />
-            <StyledCardTitle>Data Science</StyledCardTitle>
+            <StyledCardTitle>Share</StyledCardTitle>
             <StyledP>
               One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed
               in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted

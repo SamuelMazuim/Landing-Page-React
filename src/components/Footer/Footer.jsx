@@ -17,11 +17,11 @@ export const Footer = (props) => {
         <p style={{ color: 'grey' }}>Your Website 2022. All Rights Reserved.</p>
       </HalfWrapper>
       <HalfWrapper style={{ display: 'flex', flexDirection: 'row-reverse' }}>
-        <BsFacebook style={{ cursor: 'pointer', fontSize: '3rem', color: '#067BFC' }} />
+        <BsFacebook style={{ cursor: 'pointer', fontSize: '3rem', color: '#0b011f' }} />
         <BsTwitter
-          style={{ cursor: 'pointer', fontSize: '3rem', margin: '0rem 2rem', color: '#067BFC' }}
+          style={{ cursor: 'pointer', fontSize: '3rem', margin: '0rem 2rem', color: '#0b011f' }}
         />
-        <BsInstagram style={{ cursor: 'pointer', fontSize: '3rem', color: '#067BFC' }} />
+        <BsInstagram style={{ cursor: 'pointer', fontSize: '3rem', color: '#0b011f' }} />
       </HalfWrapper>
     </FooterWrapper>
   );

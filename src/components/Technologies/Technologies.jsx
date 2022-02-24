@@ -17,7 +17,7 @@ export const Technologies = (props) => {
         <>
             <div
                 style={{
-                    background: "radial-gradient(at 0% 0%, #41acb9, #0b011f, #0b011f)",
+                    background: "radial-gradient(at 100% 0%, #41acb9, #0b011f, #0b011f)",
                     padding: "3rem 0rem 10rem 0rem",
                 }}>
                 <StyledCentralizeWrapper style={{ flexDirection: "column" }}>
@@ -37,8 +37,8 @@ export const Technologies = (props) => {
                             width: "55%",
                             textAlign: "center",
                         }}>
-                        Data science Data science Data science Data science Data science Data
-                        science Data science
+                        Ensinamos as principais tecnologias que o mercado procura!!
+                        
                     </StyledH2>
                 </StyledCentralizeWrapper>
                 <StyledCentralizeWrapper>

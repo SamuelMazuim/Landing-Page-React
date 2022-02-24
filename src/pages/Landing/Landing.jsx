@@ -26,7 +26,7 @@ export const Landing = () => {
             <Technologies />
             <Comments />
             <Pricing />
-            <Contacts />
+            {/* <Contacts /> */}
             <Footer />
         </>
     );
