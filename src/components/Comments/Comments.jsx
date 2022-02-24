@@ -2,19 +2,17 @@ import React from 'react';
 import { GeneralWrapper } from '../General-Wrapper/GeneralWrapper';
 import { StyledCentralizeWrapper, StyledH2 } from '../Title/StyledTitle';
 import {
-  StyledCard,
-  StyledCardTitle,
   StyledComment,
   StyledCommentP,
   StyledHorizontalWrapper,
   StyledImg,
   StyledLine,
-  StyledP,
   StyledProf,
   StyledVerticalWrapper,
 } from './StyledComments';
-import { DiCode } from 'react-icons/di';
+
 import { StyledSpan } from '../Technologies/StyledTechnologies';
+import { StyledCardTitle } from '../SixCards/StyledSixCards';
 
 export const Comments = (props) => {
   return (
