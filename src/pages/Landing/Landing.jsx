@@ -7,6 +7,7 @@ import { GlobalStyle } from '../../styles/global';
 import { Technologies } from '../../components/Technologies/Technologies';
 import { Comments } from '../../components/Comments/Comments';
 import { Footer } from '../../components/Footer/Footer';
+import { Pricing } from '../../components/Pricing/Pricing';
 export const Landing = () => {
   return (
     <>
@@ -24,6 +25,7 @@ export const Landing = () => {
       <SixCards />
       <Technologies />
       <Comments />
+      <Pricing />
       <Footer />
     </>
   );
