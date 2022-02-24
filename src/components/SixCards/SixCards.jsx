@@ -7,7 +7,7 @@ import { DiCode } from 'react-icons/di';
 export const SixCards = (props) => {
   return (
     <>
-      <div style={{ backgroundColor: 'rgb(248,252,252)', margin: '2rem 0rem 8rem 0rem' }}>
+      <div style={{ backgroundColor: 'rgb(248,252,252)', padding: '2rem 0rem 8rem 0rem' }}>
         <GeneralWrapper>
           <StyledH2
             style={{
